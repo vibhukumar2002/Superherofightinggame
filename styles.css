@@ -1,0 +1,76 @@
+body{
+    display: grid;
+    place-items: center;
+    background-color: black;
+    color: lightgoldenrodyellow;
+}
+#maincontainer
+{
+    display: flex;
+    
+    margin-top: 10%;
+}
+.pcontainerdiv
+{
+    height: 500px;
+    width: 270px;
+    padding-bottom: 20px;
+}
+.pimg
+{
+    height: 125px;
+    width: 125px;
+    object-fit: contain;
+}
+.pcontainerdiv
+{
+    display: grid;
+    place-items: center;
+    
+}
+#stimulateandresetdiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+.btns
+{
+    height: 35px;
+    background-color: orange;
+    border-radius: 15%;
+}
+.attackcontrols
+{
+    color: red;
+}
+.pheal
+{
+    color: blue;
+}
+.damagestats
+{
+    background-color: red;
+    padding: 15px;
+    border-radius: 15%;
+}
+.phealthinc
+{
+    background-color:blue;
+    padding: 15px;
+    border-radius: 15%;
+}
+#result
+{
+    color: white;
+}
+#resultcontainer
+{
+   background-color: burlywood;
+   padding: 20px;
+   border-radius: 15%;
+   display: none;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero fighting game </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/3/3e/Noto_Emoji_Oreo_1f4a3.svg">
+</head>
+<body>
+
+<div id="maincontainer">
+    <div id="p1div" class="pcontainerdiv">
+        <h2 id="p1title" class="ptitle"></h2>
+        <div id="p1img" ></div>
+        <p id="p1attack" class="attackcontrols">Press Q:Attack Opponent</p>
+        <p id="p1damagestats" class="damagestats"></p>
+        <p id="p1heal" class="pheal">Press A: To Heal</p>
+        <p id="p1healthinc" class="phealthinc"></p>
+        <h2 id="p1health" class="phealth"></h2>
+    </div>
+
+    <div id="stimulateandresetdiv">
+        <button id="stimulate" class="btns">STIMULATE</button>
+        <button id="reset" class="btns">RESET</button>
+    </div>
+    
+    <div id="p22div" class="pcontainerdiv">
+        <h2 id="p2title" class="ptitle"></h2>
+        <div id="p2img" class="pimg"></div>
+        <p id="p2attack" class="attackcontrols">Press P:Attack Opponent</p>
+        <p id="p2damagestats" class="damagestats"></p>
+        <p id="p2heal" class="pheal">Press L: To Heal</p>
+        <p id="p2healthinc" class="phealthinc"></p>
+        <h2 id="p2health" class="phealth"></h2>
+    </div>
+</div>
+
+<div id="resultcontainer">
+    <p id="result"></p>
+    <p id="score"></p>
+</div>
+     <audio src="Sounds/fastheal.mp3" id="fastheal"></audio>
+     <audio src="Sounds/fastpunch.mp3" id="fastpunch"></audio>
+     <audio src="Sounds/quickheal.mp3" id="quickheal"></audio>
+     <audio src="Sounds/quickhit.mp3" id="quickhit"></audio>
+     <audio src="Sounds/victory.mp3" id="victory"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
